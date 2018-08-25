@@ -2879,7 +2879,7 @@ name := $(TARGET_PRODUCT)
 ifeq ($(TARGET_BUILD_TYPE),debug)
   name := $(name)_debug
 endif
-name := Havoc-OS-$(shell date +"%Y%m%d")-$(TARGET_DEVICE)
+name := Havoc-OS-$(HAVOC_BASE_VERSION)-$(DATE)-$(TARGET_DEVICE)-$(HAVOC_BUILD_TYPE)
 
 INTERNAL_OTA_PACKAGE_TARGET := $(PRODUCT_OUT)/$(name).zip
 
