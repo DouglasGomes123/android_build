@@ -32,7 +32,6 @@ PRODUCT_PACKAGES += \
     Contacts \
     DocumentsUI \
     DownloadProviderUi \
-    Email \
     ExternalStorageProvider \
     FusedLocation \
     InputDevices \
